@@ -233,7 +233,9 @@ p{
 
 .top-banner{
     width: 100%;
-    background: url(bg-1.jpg) no-repeat center;
+    background: url(bg-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     padding: 16.875rem 0 9.375rem;
 }
@@ -301,7 +303,9 @@ p{
 .story-section{
     width: 100% !important;
     /* height: 24.125rem !important; */
-    background: url(bg-2.jpg) no-repeat center;
+    background: url(bg-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     padding-top: 75px;
     padding-bottom: 75px;
