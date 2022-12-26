@@ -1,0 +1,66 @@
+@media screen and (max-width: 992px){
+    /*custom class*/
+    .text-content{
+        width: 100%;
+    }
+
+    /* Navigation css*/
+    .navigation-wrap{
+        text-align: center;
+        background-color: var(--white-color);
+    }
+
+    .navigation-wrap .navbar-brand img{
+        height: 3.8125rem;
+    }
+
+    .navigation-wrap .nav-link{
+        line-height: 1.875rem;
+    }
+
+    /* Top banner css*/
+    .top-banner{
+        padding: 9.375rem 0 9.375rem;
+    }
+}
+
+@media screen and (max-width: 767px){
+    /* Custom css*/
+    h1{
+        font-size: 2.8rem !important;
+    }
+
+    h2{
+        font-size: 2rem !important;
+        line-height: 2.0625rem !important;
+    }
+
+    /* Top banner css*/
+    .top-banner{
+        padding: 10.875rem 0 9.375rem !important;
+    }
+
+    /* Story section css*/
+
+    .story-section{
+        height: auto;
+    }
+
+    /* Newsletter section css*/
+
+    .newsletter{
+        width: 75%;
+    }
+
+    .newsletter .main_btn{
+        width: 100%;
+        margin-top: 1rem;
+        margin-left: 0px;
+    }
+
+
+    .footer .footer-link,
+    .footer a i{
+        padding: 0 0.7rem;
+    }
+}
